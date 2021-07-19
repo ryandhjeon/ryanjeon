@@ -25,13 +25,11 @@
     "gatsby-plugin-algolia": "^0.19.0",
     "gatsby-plugin-catch-links": "^3.9.0",
     "gatsby-plugin-emotion": "^6.7.1",
-    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-layout": "^2.7.1",
     "gatsby-plugin-manifest": "^3.7.1",
     "gatsby-plugin-mdx": "^2.7.1",
     "gatsby-plugin-offline": "^4.7.1",
-    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^4.7.1",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-plugin-sharp": "^3.7.1",
@@ -64,8 +62,7 @@
     "start": "gatsby develop",
     "build": "gatsby build --prefix-paths",
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
-    "lint": "eslint --fix \"src/**/*.{js,jsx}\"",
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "lint": "eslint --fix \"src/**/*.{js,jsx}\""
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

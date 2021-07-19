@@ -11,8 +11,6 @@ export const Sidebar = styled('aside')`
   position: sticky;
   top: 0;
 
-
-
   .rightSideTitle {
     font-size: 12px;
     line-height: 1;

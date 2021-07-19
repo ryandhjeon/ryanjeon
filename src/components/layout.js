@@ -57,12 +57,12 @@ const Layout = ({ children, location }) => (
         <div className={'hiddenMobile'}>
           <Sidebar location={location} />
         </div>
-        {config.sidebar.title ? (
-          <div
-            className={'sidebarTitle sideBarShow'}
-            dangerouslySetInnerHTML={{ __html: config.sidebar.title }}
-          />
-        ) : null}
+        {/*{config.sidebar.title ? (*/}
+        {/*  <div*/}
+        {/*    className={'sidebarTitle sideBarShow'}*/}
+        {/*    dangerouslySetInnerHTML={{ __html: config.sidebar.title }}*/}
+        {/*  />*/}
+        {/*) : null}*/}
         <Content>
           <div>
             {children}
